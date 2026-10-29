@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code & PyCharm IDE settings
+.vscode/
+.idea/
+
+# Streamlit local configuration & secrets
+.streamlit/secrets.toml
+
+# Kaggle credentials and API secrets (NEVER commit credentials!)
+kaggle.json
+*.env
+.env*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
